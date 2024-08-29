@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "vaccbot"
+name = "vaccgui"
 version = "0.1.0"
 description = ""
 authors = ["Jason Lobell <jasonlobell123@gmail.com>"]
@@ -11,6 +11,10 @@ pyqt5 = "^5.15.11"
 slacc = "^1.0.1"
 paramiko = "^3.4.1"
 langchain = "^0.2.15"
+bs4 = "^0.0.2"
+langchain-community = "^0.2.14"
+langchain-openai = "^0.1.23"
+langchain-chroma = "^0.1.3"
 
 [build-system]
 requires = ["poetry-core"]
